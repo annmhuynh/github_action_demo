@@ -7,6 +7,7 @@ on:
       - "dev"
       - "production"
       - "uat"
+    branches: [ "dev" ]
 
 jobs:
   # ------ JOB 1: CHẠY UNIT TEST ------
