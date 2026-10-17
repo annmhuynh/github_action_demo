@@ -7,7 +7,6 @@ on:
       - "dev"
       - "production"
       - "uat"
-
 jobs:
   # ------ JOB 1: CHẠY UNIT TEST ------
   unit-test:
