@@ -1,9 +1,9 @@
 name: FX DataOps Pipeline
 
-# Khi nào thì hệ thống này chạy? -> Khi có code đẩy lên nhánh main
+# Khi nào thì hệ thống này chạy? -> Khi có code đẩy lên nhánh dev
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "dev" ]
 
 jobs:
   # ------ JOB 1: CHẠY UNIT TEST ------
