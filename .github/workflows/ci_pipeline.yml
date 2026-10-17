@@ -4,9 +4,9 @@ name: FX DataOps Pipeline
 on:
   push:
     branches:
-      - "dev"
-      - "production"
-      - "uat"
+      - ["dev"]
+      - ["production"]
+      - ["uat"]
 
 jobs:
   # ------ JOB 1: CHẠY UNIT TEST ------
